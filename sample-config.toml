@@ -1,0 +1,15 @@
+
+
+# Der Status ändert sich jede paar Sekunden von alleine, um einen neuen hinzuzufügen einfach einen die 3 Lines kopieren und wieder einfügen und abändern.
+[[status]]
+name = "Name vom Status"
+type = "Typ vom Status" # PLAYING, WATCHING, STREAMING
+
+#Beispiel
+[[status]]
+name = "i like ducks"
+type = "WATCHING"
+
+[[status]]
+name = "Fortnite"
+type = "PLAYING"

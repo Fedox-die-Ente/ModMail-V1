@@ -1,0 +1,26 @@
+{
+    "startup": {
+        "PERMISSION_REQUIRED": ["Bitte gebe den Bot ADMINISTRATOR Rechte."],
+        "MISSING_ROLE_IDS": ["Bitte fülle alle Felder aus der settings.json aus."],
+        "SETUP_MESSAGE_1": ["Der Bot wird nun automatisch eingerichtet."],
+        "SETUP_MESSAGE_2": ["Der Bot wurde eingerichtet, es wurde nun eine Kategorie für die Mod Mails erstellt."],
+        "CONNECTED": ["{{name}} ist verbunden, und schaut {{memberCount}} Mitgliedern zu."]
+    },
+    "system": {
+        "MEMBER_NOT_FOUND": "Der Member ({{member}}) konnte nicht gefunden werden.",
+        "PARENT_MISSING": "Bitte stelle sicher, das die ModMail Kategorie erstellt worden ist.",
+        "CHANNEL_TOPIC": "**{{member}}**",
+        "SUCCESS_EMBED": {
+            "AUTHOR": ["MODMAIL GEÖFFNET"],
+            "DESCRIPTION": ["Du hast erfolgreich eine ModMail erstellt! \nWir werden uns so schnell wie möglich mit dir in Verbindung setzen!"]
+        },
+        "DETAILS_EMBED": {
+            "AUTHOR": ["DETAILS"],
+            "DESCRIPTION": ["{{content}}"]
+        },
+        "DELETE_EMBED": {
+            "AUTHOR": ["MODMAIL GESCHLOSSEN"],
+            "DESCRIPTION": ["Deine ModMail wurde nun geschlossen, sobald du wieder Hilfe benötigst, kannst du dich gerne bei uns melden. :)"]
+        }
+    }
+}

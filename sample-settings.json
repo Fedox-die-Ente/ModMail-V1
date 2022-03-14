@@ -1,0 +1,12 @@
+{
+    "token": "Dein Bot Token",
+    "categoryname": "Name der Kategorie von den Tickets",
+    "colors": {
+        "positive": "Farbe für positive Antworten"
+    },
+    "modmail": {
+        "server_id": "ID vom Server",
+        "support_roleid": "Die ID von der Rolle die gepingt werden soll wenn eine neue ModMail erstellt wird.",
+        "role_ids": ["Die Rollen Ids", "von die, die ModMail Channel", "Sehen können"]
+    }
+}

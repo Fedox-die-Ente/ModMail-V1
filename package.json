@@ -1,0 +1,24 @@
+{
+  "name": "modmail-v1",
+  "version": "1.0.0",
+  "description": "Der ModMail Bot für DuckMC.de",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fedox-die-Ente"
+  },
+  "keywords": [
+    "modmail"
+  ],
+  "author": "Fedox",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "quick.db": "^7.1.3",
+    "toml": "^3.0.0"
+  }
+}
