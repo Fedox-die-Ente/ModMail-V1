@@ -7,7 +7,7 @@ type = "Typ vom Status" # PLAYING, WATCHING, STREAMING
 
 #Beispiel
 [[status]]
-name = "i like ducks"
+name = "Made by Fedox" # <- DIESEN STATUS AUFGRUND DER AGPL LIZENZ DRIN LASSEN!
 type = "WATCHING"
 
 [[status]]
