@@ -181,7 +181,7 @@
                     .setTitle('Modmail von ' + message.author.username)
                     .setDescription(message.content)
                     .setColor("#f5d611")
-                    .setFooter({ text: 'Modmail von ' + message.author.tag + ' » ' + message.author.id})
+                    .setFooter({ text: 'Modmail Nachricht von ' + message.author.tag + ' » ' + message.author.id})
  
                 if (message.attachments.size) content_embed.setImage(message.attachments.map(x => x)[0].proxyURL)
                 channel.send({ embeds: [content_embed] })
@@ -205,7 +205,7 @@
                 .setTitle('Modmail von ' + message.author.username)
                 .setDescription(message.content)
                 .setColor("#f5d611")
-                .setFooter({ text: 'Modmail von ' + message.author.tag + ' » ' + message.author.id})
+                .setFooter({ text: 'Modmail Nachricht von ' + message.author.tag + ' » ' + message.author.id})
  
              if (message.attachments.size) content_embed.setImage(message.attachments.map(x => x)[0].proxyURL)
              return member.send({ embeds: [content_embed] })
